@@ -8,4 +8,4 @@ Para el diseño de la version desktop utilizamos la siguiente distribución:
 
 Se utilizó grid para la cuadricula de las fotos, se dividieron los componentes de todo el diseño en partes pequeñas para ubicarlas de manera sencilla y rápida.
 
-###
+### Diseño movil
