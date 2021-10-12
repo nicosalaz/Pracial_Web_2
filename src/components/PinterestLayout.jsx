@@ -3,7 +3,7 @@ import PinCard from './PinCard';
 
 const PinterestLayout = () => {
     return <div style={ stylesLayout.pin_container }>
-            <PinCard size='small' imagen = 'https://picsum.photos//200/201'/>
+            <PinCard size='small' imagen = 'https://picsum.photos//200/201'  />
             <PinCard size='medium' imagen = 'https://picsum.photos//200/202'/>
             <PinCard size='large' imagen = 'https://picsum.photos//200/203'/>
             <PinCard size='small' imagen = 'https://picsum.photos//200/204'/>
