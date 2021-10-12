@@ -17,3 +17,5 @@ Para este diseño cambiamos toda la parte del header y agregamos el footer de ma
 ## Componentes
 
 Los componenetes estan divididos en partes pequeñas de tal manera que cada uno tenga una parte especifica y pueda ser llamado en uno general para realizar el debido daspliegue.
+
+Por otra parte se hizo usop del media-query para que se modificaran los contenidos de los componenetes.
