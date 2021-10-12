@@ -1,25 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import PinterestLayout from './components/PinterestLayout';
+import Header from './components/headerPinterest/Header';
+import Media from 'react-media';
+import Footerfloat from './components/footerPiterest/Footerfloat';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+  return <div>
+      <Media query="(max-width: 375px)">
+        {(matches)=>{
+            return matches ? Mobile() : Desktop();
+        }}
+      </Media>
+    </div>;
+};
+const Desktop = () => {
+  return <div>
+      <Header />
+      <PinterestLayout />
+    </div>;
+};
+
+const Mobile = () => {
+  return <div>
+      <Header />
+      <PinterestLayout />
+      <Footerfloat/>
+    </div>;
+};
 
 export default App;
