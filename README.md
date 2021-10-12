@@ -22,6 +22,6 @@ Por otra parte se hizo uso del media-query para que se modificaran los contenido
 
 ## Estilos
 
-Los estilos se desarrollaron en formato *JSON*
+Los estilos se desarrollaron en formato *JSON* y para implementar el hover de los botones se utilizaron estados y se validaban para hacer los cambios, estos fueron ejecutados por eventos de JavaScript.
 
 
