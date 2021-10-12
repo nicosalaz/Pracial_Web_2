@@ -13,7 +13,7 @@ const SearchBar = () => {
 
 const styleSearchBar = {
     search_bar :{
-        width: '70%',
+        width: '70vw',
         height: '100%',
         display: 'flex',
         flexDirection:'row',

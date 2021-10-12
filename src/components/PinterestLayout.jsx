@@ -3,27 +3,27 @@ import PinCard from './PinCard';
 
 const PinterestLayout = () => {
     return <div style={ stylesLayout.pin_container }>
-            <PinCard size='small' imagen = 'https://picsum.photos//200/231'/>
-            <PinCard size='medium' imagen = 'https://picsum.photos//200/432'/>
-            <PinCard size='large' imagen = 'https://picsum.photos//200/240'/>
+            <PinCard size='small' imagen = 'https://picsum.photos//200/201'/>
+            <PinCard size='medium' imagen = 'https://picsum.photos//200/202'/>
+            <PinCard size='large' imagen = 'https://picsum.photos//200/203'/>
+            <PinCard size='small' imagen = 'https://picsum.photos//200/204'/>
+            <PinCard size='medium' imagen = 'https://picsum.photos//200/205'/>
+            <PinCard size='large' imagen = 'https://picsum.photos//200/206'/>
+            <PinCard size='small' imagen = 'https://picsum.photos//200/207'/>
+            <PinCard size='medium' imagen = 'https://picsum.photos//200/208'/>
+            <PinCard size='large' imagen = 'https://picsum.photos//200/209'/>
+            <PinCard size='small' imagen = 'https://picsum.photos//200/210'/>
+            <PinCard size='medium' imagen = 'https://picsum.photos//200/211'/>
+            <PinCard size='large' imagen = 'https://picsum.photos//200/212'/>
             <PinCard size='small' imagen = 'https://picsum.photos//200/213'/>
-            <PinCard size='medium' imagen = 'https://picsum.photos//200/632'/>
-            <PinCard size='large' imagen = 'https://picsum.photos//200/765'/>
-            <PinCard size='small' imagen = 'https://picsum.photos//200/300'/>
-            <PinCard size='medium' imagen = 'https://picsum.photos//200/125'/>
-            <PinCard size='large' imagen = 'https://picsum.photos//200/324'/>
-            <PinCard size='small' imagen = 'https://picsum.photos//200/865'/>
-            <PinCard size='medium' imagen = 'https://picsum.photos//200/323'/>
-            <PinCard size='large' imagen = 'https://picsum.photos//200/764'/>
-            <PinCard size='small' imagen = 'https://picsum.photos//200/527'/>
-            <PinCard size='medium' imagen = 'https://picsum.photos//200/953'/>
-            <PinCard size='large' imagen = 'https://picsum.photos//200/156'/>
-            <PinCard size='small' imagen = 'https://picsum.photos//200/374'/>
-            <PinCard size='medium' imagen = 'https://picsum.photos//200/648'/>
-            <PinCard size='large' imagen = 'https://picsum.photos//200/933'/>
-            <PinCard size='small' imagen = 'https://picsum.photos//200/555'/>
-            <PinCard size='medium' imagen = 'https://picsum.photos//200/712'/>
-            <PinCard size='large' imagen = 'https://picsum.photos//200/654'/>
+            <PinCard size='medium' imagen = 'https://picsum.photos//200/214'/>
+            <PinCard size='large' imagen = 'https://picsum.photos//200/215'/>
+            <PinCard size='small' imagen = 'https://picsum.photos//200/216'/>
+            <PinCard size='medium' imagen = 'https://picsum.photos//200/217'/>
+            <PinCard size='large' imagen = 'https://picsum.photos//200/218'/>
+            <PinCard size='small' imagen = 'https://picsum.photos//200/219'/>
+            <PinCard size='medium' imagen = 'https://picsum.photos//200/220'/>
+            <PinCard size='large' imagen = 'https://picsum.photos//200/221'/>
             
         </div>;
 };

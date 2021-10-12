@@ -42,13 +42,13 @@ const HeaderMobile = () =>{
 
 const styleHeader = {
     header_desktop:{
-        width: '100vw',
+        width: '98vw',
         height: '8vh',
         margin: 0,
         padding:0,
         display: 'flex',
         flexDirection:'row',
-        justifyContent:'space-between',
+        justifyContent:'space-evenly',
         alignItems:'center',
         backgroundColor:'white',
     },
